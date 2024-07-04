@@ -33,9 +33,9 @@ int main() {
 
     // Print victory or loss message
     if (heads > tails) {
-        printf("You Won!\n");
+        printf("%s Won!\n", name);
     } else {
-        printf("You Lost!.\n");
+        printf("%s Lost!\n", name);
     }
 
     return 0;
