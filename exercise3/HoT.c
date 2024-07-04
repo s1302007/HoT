@@ -10,11 +10,11 @@ int main() {
     int heads = 0, tails = 0;
 
     // Ask for the user's name
-    printf("Enter your name: ");
+    printf("Who are you: ");
     scanf("%s", name);
 
     // Greet the user
-    printf("Hello, %s! Let's start the coin tossing game.\n\n", name);
+    printf("Hello, %s!\n", name);
 
     printf("Tossing a coin...\n");
 
