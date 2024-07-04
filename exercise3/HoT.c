@@ -10,7 +10,7 @@ int main() {
     printf("Tossing a coin...\n");
 
     for (int round = 1; round <= 3; round++) {
-        int toss = rand() % 2; 
+        int toss = rand() % 2;
         if (toss == 0) {
             printf("Round %d: Heads\n", round);
             heads++;
@@ -21,6 +21,13 @@ int main() {
     }
 
     printf("Heads: %d, Tails: %d\n", heads, tails);
+
+    // Print victory or loss message
+    if (heads > tails) {
+        printf("You Won!\n");
+    } else {
+        printf("You Lost!.\n");
+    }
 
     return 0;
 }
